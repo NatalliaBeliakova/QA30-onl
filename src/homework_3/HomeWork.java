@@ -18,9 +18,7 @@ public class HomeWork {
         getSquares();
     }
 
-    public static Scanner input() {
-        return new Scanner(System.in);
-    }
+
 
     public static void getSeasonOfYearSwitch() {
         //Написать программу для вывода названия поры года по номеру
@@ -198,6 +196,9 @@ public class HomeWork {
             int square = i * i;
             System.out.println(square);
         }
+    }
+    public static Scanner input() {
+        return new Scanner(System.in);
     }
 }
 
